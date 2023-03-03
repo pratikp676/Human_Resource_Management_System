@@ -1,17 +1,17 @@
 package main
 
 import (
-	database "HRMS/api/database"
-	middleware "HRMS/middleware"
 	"fmt"
 	"net/http"
-
-	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
+	database "EmployeeAssisgnment/api/database"
+	"github.com/gin-contrib/cors"
+	middleware "EmployeeAssisgnment/middleware"
+
 )
 
 func main() {
-	fmt.Println("In main function")
+	fmt.Println("Gin-Gonic Server")
 	//database.InitDB()
 	startServer()
 }

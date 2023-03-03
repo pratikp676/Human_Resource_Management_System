@@ -1,8 +1,8 @@
 package helpers
 
 import (
-	"HRMS/api/model"
-	"HRMS/api/services"
+	"EmployeeAssisgnment/api/model"
+	"EmployeeAssisgnment/api/services"
 	"errors"
 	"fmt"
 	"time"
@@ -21,7 +21,7 @@ type jwtCustomClaim struct {
 	Username string `json:"username"`
 	Password string `json:"password"`
 	Token    string `json:"token"`
-	Role     string `json:"role"`
+	Role    string `json:"role"`
 	EmpID    string `json:"empid"`
 	jwt.StandardClaims
 }
@@ -30,8 +30,8 @@ func GenerateToken(login model.Login, expirationTime time.Duration) (string, err
 	claims := jwtCustomClaim{
 		Username: login.Username,
 		Password: login.Password,
-		Role:     login.Role,
-		EmpID:    login.EmpID,
+		Role:login.Role,
+		EmpID:login.EmpID,
 		StandardClaims: jwt.StandardClaims{
 			ExpiresAt: time.Now().Add(expirationTime).Unix(),
 		},

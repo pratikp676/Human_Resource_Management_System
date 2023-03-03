@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"HRMS/api/helpers"
-	"HRMS/api/route"
-	"HRMS/api/services"
 	"fmt"
+	"EmployeeAssisgnment/api/helpers"
+	"EmployeeAssisgnment/api/route"
+	"EmployeeAssisgnment/api/services"
 	"strings"
 
 	"github.com/gin-contrib/cors"
@@ -20,13 +20,13 @@ func InitMiddleware(g *gin.Engine) {
 	o.Use(OpenRequestMiddleware())
 	r := g.Group("/r")
 	r.Use(RestrictedRequestMiddleware())
-	route.Init(r, o)
+	route.Init(r,o)
 }
 
 // Need to check JWT token here
 func RestrictedRequestMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		fmt.Println("HEADER  ", c.Request.Header)
+		fmt.Println("HEADER  ",c.Request.Header)
 		token := c.GetHeader("Authorization")
 		login, err := helpers.GetLoginFromToken(c)
 		if err != nil {
