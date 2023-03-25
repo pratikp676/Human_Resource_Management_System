@@ -31,10 +31,18 @@ export default {
   },
   async getAllEmployeesService(payload) {
     try{
-      let res = await apiClient.get("/r/get/all/employees",payload);
+      let res = await apiClient.post("/r/get/all/employees",payload);
       return res.data;
     }catch(error){
       return error.response.data.message;
   }
 },
+async getManagerService() {
+  try{
+    let res = await apiClient.get("/r/get/managers")
+    return res.data;
+  }catch(error){
+    return error.response.data;
+  }
+}
 };
