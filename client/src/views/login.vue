@@ -1,5 +1,4 @@
 <template>
-  <div>
     <div class="container-fluid">
       <div class="row">
         <div
@@ -92,7 +91,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 <script>
 import UserServices from "@/services/userService.js";
@@ -144,6 +142,7 @@ export default {
               localStorage.setItem('token',data.Authorization)
               localStorage.setItem('role',VueJwtDecode.decode(data.Authorization).role)
               localStorage.setItem('email',VueJwtDecode.decode(data.Authorization).email)
+               localStorage.setItem('empid',VueJwtDecode.decode(data.Authorization).empid)
               if(localStorage.getItem('role')=='admin'){
                 this.$router.push({ path: "/admin" });
               }else if(localStorage.getItem('role')=='hr'){
@@ -151,7 +150,7 @@ export default {
               }else{
                 this.$router.push({ path: "/employee" });
               }
-              location.reload();
+             location.reload();
           }
       });
     },

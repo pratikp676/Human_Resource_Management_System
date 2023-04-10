@@ -33,13 +33,15 @@
 				<span class="material-icons"><i class="fa-solid fa-user"></i></span>
 				<span class="text">Profile</span>
 			</router-link>
+			 <router-link to="/attendance/record" class="button" v-if="role=='hr' || role=='employee'">
+				<span class="material-icons"><i class="fa-solid fa-clock"></i></span>
+				<span class="text">Attendance Record</span>
+			</router-link>
 			 <router-link to="/apply/leaves" class="button" v-if="role=='hr' || role=='employee'">
 				<span class="material-icons"><i class="fas fa-gifts"></i></span>
 				<span class="text">Apply Leaves</span>
 			</router-link>
 		</div>
-
-		<div class="flex"></div>
 	</aside>
 </template>
 
@@ -73,7 +75,7 @@ export default{
   }
 </script>
 
-<style lang="scss" scoped>
+ <style lang="scss" scoped>
 aside {
 	display: flex;
 	flex-direction: column;
@@ -86,12 +88,6 @@ aside {
 	transition: 0.2s ease-in-out;
 	.flex {
 		flex: 1 1 0%;
-	}
-	.logo {
-		margin-bottom: 1rem;
-		img {
-			width: 2rem;
-		}
 	}
 	.menu-toggle-wrap {
 		display: flex;
@@ -158,14 +154,6 @@ aside {
 			}
 		}
 	}
-	.footer {
-		opacity: 0;
-		transition: opacity 0.3s ease-in-out;
-		p {
-			font-size: 0.875rem;
-			color: var(--grey);
-		}
-	}
 	&.is-expanded {
 		width: var(--sidebar-width);
 		.menu-toggle-wrap {
@@ -183,13 +171,11 @@ aside {
 				margin-right: 1rem;
 			}
 		}
-		.footer {
-			opacity: 0;
-		}
+		
 	}
 	@media (max-width: 1024px) {
-		position: absolute;
+		// position: absolute;
 		z-index: 99;
 	}
 }
-</style>
+ </style>

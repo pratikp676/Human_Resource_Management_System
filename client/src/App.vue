@@ -3,7 +3,7 @@
       <headerbar/>
       <div class="wrapper">
            <navigationbar v-if="token!=null" class="first"/>
-            <router-view />
+            <router-view  class="first"/>
       </div>
      
       <footerbar/>
@@ -41,6 +41,7 @@ export default{
 </script>
 
 <style lang="scss">
+
 :root {
 	--primary: #4ade80;
 	--primary-alt: #22c55e;
@@ -67,33 +68,22 @@ button {
 	outline: none;
 	background: none;
 }
-.app {
-	main {
-		flex: 1 1 0;
-		padding: 2rem;
-		@media (max-width: 1024px) {
-			padding-left: 6rem;
-		}
-	}
-}
-.sidenavlogin{
-  display: grid;
-  grid-template-columns:repeat(2, 1fr);
-  grid-auto-columns: 100px 800px;
-}
-.sidenav{
-   display: grid;
-  grid-template-columns: 1fr;
-}
+// .app {
+// 	main {
+// 		flex: 1 1 0;
+// 		padding: 2rem;
+// 		@media (max-width: 1024px) {
+// 			padding-left: 6rem;
+// 		}
+// 	}
+// }
+
 
 .wrapper{
-    width: 100vw;
+      display: flex;
 }
 .first{
   //  width: 300px;
-  float: left;
-}
-.second{
-  margin-left: 305px;
+  align-items: stretch;
 }
 </style>
