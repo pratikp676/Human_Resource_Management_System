@@ -6,7 +6,8 @@
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    min-height: 65vh;
+    height: 100vh;
+    width: auto;
     background-size:cover;
 }
 .headernav {
@@ -16,8 +17,9 @@
     height: 60px;
 }
 .mainheader{
-    background-color: #c6ce2f;
-    /* background-color: #DC143C; */
+    /* background-color: #2fcead; */
+    background-color: #1e293b;
+    /* background-color: #2d3c54 */
 }
 .list-group-item {
   background-color: transparent !important;
@@ -94,7 +96,7 @@
     width: 150px;
 }
 .footer{
-    background-color: #c6ce2f;
+    background-color: #1e293b;
     color: white;
     bottom: 0;
 }
@@ -127,7 +129,7 @@
 
 
 .lastfooter{
-    background-color: #969c15;
+    background-color: #1e293b;
 }
 
 .linkclass{

@@ -9,7 +9,6 @@
               class="float-start ms-4 logoimg"
               alt="logo"
             />
-            <h4 class="pt-3 text-light">&nbsp;EMS</h4>
           </router-link>
         </div>
         <div class="col-sm-7">

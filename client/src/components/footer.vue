@@ -11,7 +11,7 @@
               class="ms-4 mobilefooterlogo"
               alt="logo"
             />
-            <h4 class="mobilefooterlogotext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMS</h4>
+            
           </router-link>
         </div>
       </div>
@@ -20,11 +20,11 @@
          <router-link class="text-light linkclass" to="/contact"><h5>Contact</h5></router-link> 
           <i class="fa fa-home fa-lg mt-3"></i>&nbsp;8765 University Road Apt L
           <br />
-          <i class="fas fa-phone fa-lg pt-4"></i>&nbsp;(980) 327 9722
+          <i class="fas fa-phone fa-lg pt-4"></i>&nbsp;(980) 321 8378
           <br />
-          <a class="text-light anchorstyle" href="mailto:abc@example.com'">
+          <a class="text-light anchorstyle" href="mailto:info@hrms.com">
             <i class="fas fa-envelope fa-lg pt-4 pb-2"></i
-            >&nbsp;tnemade@uncc.edu
+            >&nbsp;info@hrms.com
           </a>
         </div>
       </div>
@@ -53,7 +53,7 @@
     <div class="row">
       <div class="col-sm-12 text-center text-light p-1 lastfooter">
         <p class="mt-2">
-          Copyright&nbsp;<i class="far fa-copyright"></i>&nbsp;2022 Employee Management System
+          Copyright&nbsp;<i class="far fa-copyright"></i>&nbsp;2022 Human Resource Management System
         </p>
       </div>
     </div>
