@@ -1,4 +1,4 @@
-# employeemanagement_client
+# HRMS
 
 ## Project setup
 ```
