@@ -89,6 +89,7 @@ export default {
         async getEmployeeAppliedLeaves(){
             await Services.getEmployeeAppliedLeaves({"email":localStorage.getItem('email'),"status":"pending","field":"manageremail"})
             .then((data) => {
+            console.log(data)
                if(data!=null){
                      this.appliedleaves=data
                }else{

@@ -37,6 +37,7 @@ export default {
     }
   },
   async getEmployeeAppliedLeaves(payload) {
+    console.log(payload)
     try {
       let res = await apiClient.post("/r/get/applied/leaves", payload);
       return res.data;
