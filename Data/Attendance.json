@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "6442ecedf4da828656f6c113"
+  },
+  "email": "amruth.nag@gmail.com",
+  "empid": "AmruthNaTech839",
+  "clockin": {
+    "$date": "2023-04-21T20:07:09.536Z"
+  },
+  "status": true,
+  "clockout": {
+    "$date": "2023-04-21T20:07:15.175Z"
+  }
+}]

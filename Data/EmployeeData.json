@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "635c38c69e0ee0db3e6298d6"
+  },
+  "firstname": "Pratik",
+  "lastname": "Patel",
+  "department": "CS",
+  "address": "Charlotte",
+  "empid": "Pratikp676",
+  "empstatus": "active",
+  "email": "admin@gmail.com",
+  "password": "admin",
+  "contact": "980312455",
+  "level": "admin",
+  "role": "admin",
+  "holidays": 100000,
+  "manageremail": "admin@gmail.com",
+  "remholidays": 100000,
+  "gender": "Male"
+},{
+  "_id": {
+    "$oid": "6442ebaef4da828656f6c009"
+  },
+  "firstname": "Amruth",
+  "lastname": "Nag",
+  "department": "Technical support",
+  "address": "1234 University Terrace Dr.",
+  "empid": "AmruthNaTech839",
+  "empstatus": "active",
+  "email": "amruth.nag@gmail.com",
+  "password": "1234",
+  "contact": "(980)-310-3141",
+  "level": "Project Manager",
+  "manageremail": "admin@gmail.com",
+  "holidays": 30,
+  "remholidays": 30,
+  "gender": "Male",
+  "role": "employee"
+},{
+  "_id": {
+    "$oid": "6442ebe0f4da828656f6c024"
+  },
+  "firstname": "Nischita Vahini ",
+  "lastname": "Mugata",
+  "department": "Technical support",
+  "address": "1234 University Terrace Dr.",
+  "empid": "NischitaVahiniMuTech228",
+  "empstatus": "active",
+  "email": "nischita.mugata@gmail.com",
+  "password": "1234",
+  "contact": "(980)-310-3144",
+  "level": "SDE 1",
+  "manageremail": "amruth.nag@gmail.com",
+  "holidays": 30,
+  "remholidays": 30,
+  "gender": "Female",
+  "role": "employee"
+},{
+  "_id": {
+    "$oid": "6442ec14f4da828656f6c040"
+  },
+  "firstname": "Arush ",
+  "lastname": "Mishra",
+  "department": "Human Resource",
+  "address": "1234 University Terrace Dr.",
+  "empid": "ArushMiHuma164",
+  "empstatus": "active",
+  "email": "arush.mishra@gmail.com",
+  "password": "1234",
+  "contact": "(980)-310-3142",
+  "level": "Recruiting Manager",
+  "manageremail": "admin@gmail.com",
+  "holidays": 40,
+  "remholidays": 40,
+  "gender": "Male",
+  "role": "hr"
+},{
+  "_id": {
+    "$oid": "6442ec46f4da828656f6c05d"
+  },
+  "firstname": "Ruchira Gajanan",
+  "lastname": "Ingle",
+  "department": "Human Resource",
+  "address": "1234 University Terrace Dr.",
+  "empid": "RuchiraGajananInHuma730",
+  "empstatus": "active",
+  "email": "ruchira.ingle@gmail.com",
+  "password": "1234",
+  "contact": "(980)-310-3145",
+  "level": "SDE 1",
+  "manageremail": "arush.mishra@gmail.com",
+  "holidays": 30,
+  "remholidays": 30,
+  "gender": "Female",
+  "role": "hr"
+}]

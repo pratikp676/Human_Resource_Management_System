@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "6442ec84f4da828656f6c0a7"
+  },
+  "lid": "39a54b2d-efe7-41ba-a448-c7ba1cb0bc13",
+  "email": "nischita.mugata@gmail.com",
+  "holidays": 30,
+  "remholidays": 0,
+  "manageremail": "amruth.nag@gmail.com",
+  "status": "approved",
+  "todate": {
+    "$numberLong": "1682654400000"
+  },
+  "fromdate": {
+    "$numberLong": "1682481600000"
+  },
+  "applieddate": {
+    "$numberLong": "1682107524718"
+  },
+  "numdays": 3,
+  "comment": "Going out of town",
+  "details": {
+    "firstname": "",
+    "lastname": "",
+    "department": "",
+    "address": "",
+    "empid": "",
+    "empstatus": "",
+    "email": "",
+    "password": "",
+    "contact": "",
+    "level": "",
+    "manageremail": "",
+    "holidays": 0,
+    "remholidays": 0,
+    "gender": "",
+    "role": ""
+  }
+},{
+  "_id": {
+    "$oid": "64442fe7f4da828656f7473d"
+  },
+  "lid": "89e4db87-afba-4ef4-81a0-407e3d8dca48",
+  "email": "amruth.nag@gmail.com",
+  "holidays": 30,
+  "remholidays": 0,
+  "manageremail": "admin@gmail.com",
+  "status": "pending",
+  "todate": {
+    "$numberLong": "1683864000000"
+  },
+  "fromdate": {
+    "$numberLong": "1683604800000"
+  },
+  "applieddate": {
+    "$numberLong": "1682190311845"
+  },
+  "numdays": 4,
+  "comment": "Going out of town",
+  "details": {
+    "firstname": "",
+    "lastname": "",
+    "department": "",
+    "address": "",
+    "empid": "",
+    "empstatus": "",
+    "email": "",
+    "password": "",
+    "contact": "",
+    "level": "",
+    "manageremail": "",
+    "holidays": 0,
+    "remholidays": 0,
+    "gender": "",
+    "role": ""
+  }
+}]
